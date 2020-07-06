@@ -1,0 +1,585 @@
+{
+  "stats": {
+    "suites": 3,
+    "tests": 21,
+    "passes": 6,
+    "pending": 0,
+    "failures": 15,
+    "start": "2020-07-05T21:57:56.112Z",
+    "end": "2020-07-05T21:59:37.913Z",
+    "duration": 101801,
+    "testsRegistered": 21,
+    "passPercent": 28.57142857142857,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "c2eb5f1f-fe3e-4f5f-8649-ca2ac091fb6f",
+      "title": "",
+      "fullFile": "cypress\\integration\\TraditionalTestsV2.js",
+      "file": "cypress\\integration\\TraditionalTestsV2.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "281e500c-4ffa-4cea-b889-c8c4e3825af8",
+          "title": "Task 1",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Test Name: Search field is displayed, DOM Id: .custom-search-input, Browser: chrome, Device: desktop, Viewport: 1200*700",
+              "fullTitle": "Task 1 Test Name: Search field is displayed, DOM Id: .custom-search-input, Browser: chrome, Device: desktop, Viewport: 1200*700",
+              "timedOut": null,
+              "duration": 1591,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "objhelper.set_viewports(el.height, el.width);\nobjhomepage.check_search_bar_visibility(el.height);",
+              "err": {},
+              "uuid": "02b73f8b-f5b0-4bd9-8fa4-31808f73c5cd",
+              "parentUUID": "281e500c-4ffa-4cea-b889-c8c4e3825af8",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test Name: Validate filter icon, DOM Id: .ti-filter, Browser: chrome, Device: desktop, Viewport: 1200*700",
+              "fullTitle": "Task 1 Test Name: Validate filter icon, DOM Id: .ti-filter, Browser: chrome, Device: desktop, Viewport: 1200*700",
+              "timedOut": null,
+              "duration": 4829,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "objhelper.set_viewports(el.height, el.width);\nobjhomepage.check_filter_icon(el.height);",
+              "err": {
+                "message": "AssertionError: Timed out retrying: expected '<i#ti-filter.ti-filter>' not to be 'visible'",
+                "estack": "AssertionError: Timed out retrying: expected '<i#ti-filter.ti-filter>' not to be 'visible'\n    at homepage.check_filter_icon (https://demo.applitools.com/__cypress/tests?p=cypress\\integration\\TraditionalTestsV2.js:119:29)\n    at Context.eval (https://demo.applitools.com/__cypress/tests?p=cypress\\integration\\TraditionalTestsV2.js:320:19)",
+                "diff": null
+              },
+              "uuid": "7935a1a7-0678-4384-ad3f-723d8027ad14",
+              "parentUUID": "281e500c-4ffa-4cea-b889-c8c4e3825af8",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test Name: Validate item tooltip icons, DOM Id: .tooltip-1, Browser: chrome, Device: desktop, Viewport: 1200*700",
+              "fullTitle": "Task 1 Test Name: Validate item tooltip icons, DOM Id: .tooltip-1, Browser: chrome, Device: desktop, Viewport: 1200*700",
+              "timedOut": null,
+              "duration": 401,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "objhelper.set_viewports(el.height, el.width);\nobjhomepage.check_item_tooltip(el.height);",
+              "err": {},
+              "uuid": "74c12219-ae17-4309-86a2-5372cf17ed42",
+              "parentUUID": "281e500c-4ffa-4cea-b889-c8c4e3825af8",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test Name: Search field is displayed, DOM Id: .custom-search-input, Browser: chrome, Device: tablet, Viewport: 768*700",
+              "fullTitle": "Task 1 Test Name: Search field is displayed, DOM Id: .custom-search-input, Browser: chrome, Device: tablet, Viewport: 768*700",
+              "timedOut": null,
+              "duration": 440,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "objhelper.set_viewports(el.height, el.width);\nobjhomepage.check_search_bar_visibility(el.height);",
+              "err": {},
+              "uuid": "92ff09c4-1f8d-4323-8181-03bf29b8b5eb",
+              "parentUUID": "281e500c-4ffa-4cea-b889-c8c4e3825af8",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test Name: Validate filter icon, DOM Id: .ti-filter, Browser: chrome, Device: tablet, Viewport: 768*700",
+              "fullTitle": "Task 1 Test Name: Validate filter icon, DOM Id: .ti-filter, Browser: chrome, Device: tablet, Viewport: 768*700",
+              "timedOut": null,
+              "duration": 442,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "objhelper.set_viewports(el.height, el.width);\nobjhomepage.check_filter_icon(el.height);",
+              "err": {},
+              "uuid": "79ad17bd-b2f4-4fbc-869f-5227c73fa8d2",
+              "parentUUID": "281e500c-4ffa-4cea-b889-c8c4e3825af8",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test Name: Validate item tooltip icons, DOM Id: .tooltip-1, Browser: chrome, Device: tablet, Viewport: 768*700",
+              "fullTitle": "Task 1 Test Name: Validate item tooltip icons, DOM Id: .tooltip-1, Browser: chrome, Device: tablet, Viewport: 768*700",
+              "timedOut": null,
+              "duration": 4811,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "objhelper.set_viewports(el.height, el.width);\nobjhomepage.check_item_tooltip(el.height);",
+              "err": {
+                "message": "AssertionError: Timed out retrying: expected '[ <a#A__tooltip__225.tooltip-1>, 26 more... ]' to be 'visible'\n\nThis element `[ <a#A__tooltip__225.tooltip-1>, 26 more... ]` is not visible because its parent `[ <li#LI____224>, 26 more... ]` has CSS property: `visibility: hidden`",
+                "estack": "AssertionError: Timed out retrying: expected '[ <a#A__tooltip__225.tooltip-1>, 26 more... ]' to be 'visible'\n\nThis element `[ <a#A__tooltip__225.tooltip-1>, 26 more... ]` is not visible because its parent `[ <li#LI____224>, 26 more... ]` has CSS property: `visibility: hidden`\n    at homepage.check_item_tooltip (https://demo.applitools.com/__cypress/tests?p=cypress\\integration\\TraditionalTestsV2.js:131:30)\n    at Context.eval (https://demo.applitools.com/__cypress/tests?p=cypress\\integration\\TraditionalTestsV2.js:324:19)",
+                "diff": null
+              },
+              "uuid": "06b4a004-1f80-45f4-b7f3-65951049b84c",
+              "parentUUID": "281e500c-4ffa-4cea-b889-c8c4e3825af8",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test Name: Search field is displayed, DOM Id: .custom-search-input, Browser: chrome, Device: mobile, Viewport: 500*700",
+              "fullTitle": "Task 1 Test Name: Search field is displayed, DOM Id: .custom-search-input, Browser: chrome, Device: mobile, Viewport: 500*700",
+              "timedOut": null,
+              "duration": 4910,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "objhelper.set_viewports(el.height, el.width);\nobjhomepage.check_search_bar_visibility(el.height);",
+              "err": {
+                "message": "AssertionError: Timed out retrying: expected '<div#DIV__customsear__41.custom-search-input>' not to be 'visible'",
+                "estack": "AssertionError: Timed out retrying: expected '<div#DIV__customsear__41.custom-search-input>' not to be 'visible'\n    at homepage.check_search_bar_visibility (https://demo.applitools.com/__cypress/tests?p=cypress\\integration\\TraditionalTestsV2.js:105:28)\n    at Context.eval (https://demo.applitools.com/__cypress/tests?p=cypress\\integration\\TraditionalTestsV2.js:316:19)",
+                "diff": null
+              },
+              "uuid": "2cb1791e-1d4f-496c-a374-a0ab1ff17bdc",
+              "parentUUID": "281e500c-4ffa-4cea-b889-c8c4e3825af8",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test Name: Validate filter icon, DOM Id: .ti-filter, Browser: chrome, Device: mobile, Viewport: 500*700",
+              "fullTitle": "Task 1 Test Name: Validate filter icon, DOM Id: .ti-filter, Browser: chrome, Device: mobile, Viewport: 500*700",
+              "timedOut": null,
+              "duration": 452,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "objhelper.set_viewports(el.height, el.width);\nobjhomepage.check_filter_icon(el.height);",
+              "err": {},
+              "uuid": "538e2bb6-177b-444e-9f7e-ef5b41d971ab",
+              "parentUUID": "281e500c-4ffa-4cea-b889-c8c4e3825af8",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test Name: Validate item tooltip icons, DOM Id: .tooltip-1, Browser: chrome, Device: mobile, Viewport: 500*700",
+              "fullTitle": "Task 1 Test Name: Validate item tooltip icons, DOM Id: .tooltip-1, Browser: chrome, Device: mobile, Viewport: 500*700",
+              "timedOut": null,
+              "duration": 4758,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "objhelper.set_viewports(el.height, el.width);\nobjhomepage.check_item_tooltip(el.height);",
+              "err": {
+                "message": "AssertionError: Timed out retrying: expected '[ <a#A__tooltip__225.tooltip-1>, 26 more... ]' to be 'visible'\n\nThis element `[ <a#A__tooltip__225.tooltip-1>, 26 more... ]` is not visible because its parent `[ <li#LI____224>, 26 more... ]` has CSS property: `visibility: hidden`",
+                "estack": "AssertionError: Timed out retrying: expected '[ <a#A__tooltip__225.tooltip-1>, 26 more... ]' to be 'visible'\n\nThis element `[ <a#A__tooltip__225.tooltip-1>, 26 more... ]` is not visible because its parent `[ <li#LI____224>, 26 more... ]` has CSS property: `visibility: hidden`\n    at homepage.check_item_tooltip (https://demo.applitools.com/__cypress/tests?p=cypress\\integration\\TraditionalTestsV2.js:131:30)\n    at Context.eval (https://demo.applitools.com/__cypress/tests?p=cypress\\integration\\TraditionalTestsV2.js:324:19)",
+                "diff": null
+              },
+              "uuid": "5484bf96-5632-47cc-a097-26672e148887",
+              "parentUUID": "281e500c-4ffa-4cea-b889-c8c4e3825af8",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "02b73f8b-f5b0-4bd9-8fa4-31808f73c5cd",
+            "74c12219-ae17-4309-86a2-5372cf17ed42",
+            "92ff09c4-1f8d-4323-8181-03bf29b8b5eb",
+            "79ad17bd-b2f4-4fbc-869f-5227c73fa8d2",
+            "538e2bb6-177b-444e-9f7e-ef5b41d971ab"
+          ],
+          "failures": [
+            "7935a1a7-0678-4384-ad3f-723d8027ad14",
+            "06b4a004-1f80-45f4-b7f3-65951049b84c",
+            "2cb1791e-1d4f-496c-a374-a0ab1ff17bdc",
+            "5484bf96-5632-47cc-a097-26672e148887"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 22634,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "b3bf5bee-c389-457a-8844-c6f3da77e009",
+          "title": "Task 2",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Test Name: Validate number of items after applying black filter, DOM Id: .grid_item, Browser: chrome, Device: desktop, Viewport: 1200*700",
+              "fullTitle": "Task 2 Test Name: Validate number of items after applying black filter, DOM Id: .grid_item, Browser: chrome, Device: desktop, Viewport: 1200*700",
+              "timedOut": null,
+              "duration": 5062,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "objhelper.set_viewports(el.height, el.width);\ncy.filter_black_products(el.height);\nobjhomepage.verify_grid_item();",
+              "err": {
+                "message": "AssertionError: Timed out retrying: Too many elements found. Found '3', expected '2'.",
+                "estack": "AssertionError: Timed out retrying: Too many elements found. Found '3', expected '2'.\n    at homepage.verify_grid_item (https://demo.applitools.com/__cypress/tests?p=cypress\\integration\\TraditionalTestsV2.js:144:26)\n    at Context.eval (https://demo.applitools.com/__cypress/tests?p=cypress\\integration\\TraditionalTestsV2.js:337:19)",
+                "diff": "- 3\n+ 2\n"
+              },
+              "uuid": "a8dd86a4-08e8-445b-955c-406bf2e316da",
+              "parentUUID": "b3bf5bee-c389-457a-8844-c6f3da77e009",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test Name: Validate item tooltip icons, DOM Id: .tooltip-1, Browser: chrome, Device: desktop, Viewport: 1200*700",
+              "fullTitle": "Task 2 Test Name: Validate item tooltip icons, DOM Id: .tooltip-1, Browser: chrome, Device: desktop, Viewport: 1200*700",
+              "timedOut": null,
+              "duration": 1718,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "objhelper.set_viewports(el.height, el.width);\ncy.filter_black_products(el.height);\nobjhomepage.check_item_tooltip(el.height);",
+              "err": {},
+              "uuid": "6446c389-2796-4ee8-8ece-3eb252cf37a0",
+              "parentUUID": "b3bf5bee-c389-457a-8844-c6f3da77e009",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test Name: Validate number of items after applying black filter, DOM Id: .grid_item, Browser: chrome, Device: tablet, Viewport: 768*700",
+              "fullTitle": "Task 2 Test Name: Validate number of items after applying black filter, DOM Id: .grid_item, Browser: chrome, Device: tablet, Viewport: 768*700",
+              "timedOut": null,
+              "duration": 5513,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "objhelper.set_viewports(el.height, el.width);\ncy.filter_black_products(el.height);\nobjhomepage.verify_grid_item();",
+              "err": {
+                "message": "AssertionError: Timed out retrying: Too many elements found. Found '3', expected '2'.",
+                "estack": "AssertionError: Timed out retrying: Too many elements found. Found '3', expected '2'.\n    at homepage.verify_grid_item (https://demo.applitools.com/__cypress/tests?p=cypress\\integration\\TraditionalTestsV2.js:144:26)\n    at Context.eval (https://demo.applitools.com/__cypress/tests?p=cypress\\integration\\TraditionalTestsV2.js:337:19)",
+                "diff": "- 3\n+ 2\n"
+              },
+              "uuid": "b32ea233-3a9c-4cdb-ba50-5ded7e95f017",
+              "parentUUID": "b3bf5bee-c389-457a-8844-c6f3da77e009",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test Name: Validate item tooltip icons, DOM Id: .tooltip-1, Browser: chrome, Device: tablet, Viewport: 768*700",
+              "fullTitle": "Task 2 Test Name: Validate item tooltip icons, DOM Id: .tooltip-1, Browser: chrome, Device: tablet, Viewport: 768*700",
+              "timedOut": null,
+              "duration": 6094,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "objhelper.set_viewports(el.height, el.width);\ncy.filter_black_products(el.height);\nobjhomepage.check_item_tooltip(el.height);",
+              "err": {
+                "message": "AssertionError: Timed out retrying: expected '[ <a#A__tooltip__225.tooltip-1>, 8 more... ]' to be 'visible'\n\nThis element `[ <a#A__tooltip__225.tooltip-1>, 8 more... ]` is not visible because its parent `[ <li#LI____224>, 8 more... ]` has CSS property: `visibility: hidden`",
+                "estack": "AssertionError: Timed out retrying: expected '[ <a#A__tooltip__225.tooltip-1>, 8 more... ]' to be 'visible'\n\nThis element `[ <a#A__tooltip__225.tooltip-1>, 8 more... ]` is not visible because its parent `[ <li#LI____224>, 8 more... ]` has CSS property: `visibility: hidden`\n    at homepage.check_item_tooltip (https://demo.applitools.com/__cypress/tests?p=cypress\\integration\\TraditionalTestsV2.js:131:30)\n    at Context.eval (https://demo.applitools.com/__cypress/tests?p=cypress\\integration\\TraditionalTestsV2.js:342:19)",
+                "diff": null
+              },
+              "uuid": "c4577071-92a7-4e50-a9a7-2d340dc322f6",
+              "parentUUID": "b3bf5bee-c389-457a-8844-c6f3da77e009",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test Name: Validate number of items after applying black filter, DOM Id: .grid_item, Browser: chrome, Device: mobile, Viewport: 500*700",
+              "fullTitle": "Task 2 Test Name: Validate number of items after applying black filter, DOM Id: .grid_item, Browser: chrome, Device: mobile, Viewport: 500*700",
+              "timedOut": null,
+              "duration": 5926,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "objhelper.set_viewports(el.height, el.width);\ncy.filter_black_products(el.height);\nobjhomepage.verify_grid_item();",
+              "err": {
+                "message": "AssertionError: Timed out retrying: Too many elements found. Found '3', expected '2'.",
+                "estack": "AssertionError: Timed out retrying: Too many elements found. Found '3', expected '2'.\n    at homepage.verify_grid_item (https://demo.applitools.com/__cypress/tests?p=cypress\\integration\\TraditionalTestsV2.js:144:26)\n    at Context.eval (https://demo.applitools.com/__cypress/tests?p=cypress\\integration\\TraditionalTestsV2.js:337:19)",
+                "diff": "- 3\n+ 2\n"
+              },
+              "uuid": "2b0b4dc4-1d3a-4e46-8464-665e4b4e5541",
+              "parentUUID": "b3bf5bee-c389-457a-8844-c6f3da77e009",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test Name: Validate item tooltip icons, DOM Id: .tooltip-1, Browser: chrome, Device: mobile, Viewport: 500*700",
+              "fullTitle": "Task 2 Test Name: Validate item tooltip icons, DOM Id: .tooltip-1, Browser: chrome, Device: mobile, Viewport: 500*700",
+              "timedOut": null,
+              "duration": 5847,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "objhelper.set_viewports(el.height, el.width);\ncy.filter_black_products(el.height);\nobjhomepage.check_item_tooltip(el.height);",
+              "err": {
+                "message": "AssertionError: Timed out retrying: expected '[ <a#A__tooltip__225.tooltip-1>, 8 more... ]' to be 'visible'\n\nThis element `[ <a#A__tooltip__225.tooltip-1>, 8 more... ]` is not visible because its parent `[ <li#LI____224>, 8 more... ]` has CSS property: `visibility: hidden`",
+                "estack": "AssertionError: Timed out retrying: expected '[ <a#A__tooltip__225.tooltip-1>, 8 more... ]' to be 'visible'\n\nThis element `[ <a#A__tooltip__225.tooltip-1>, 8 more... ]` is not visible because its parent `[ <li#LI____224>, 8 more... ]` has CSS property: `visibility: hidden`\n    at homepage.check_item_tooltip (https://demo.applitools.com/__cypress/tests?p=cypress\\integration\\TraditionalTestsV2.js:131:30)\n    at Context.eval (https://demo.applitools.com/__cypress/tests?p=cypress\\integration\\TraditionalTestsV2.js:342:19)",
+                "diff": null
+              },
+              "uuid": "ac8950cd-5a35-4b0f-b409-973d86ed0b7a",
+              "parentUUID": "b3bf5bee-c389-457a-8844-c6f3da77e009",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "6446c389-2796-4ee8-8ece-3eb252cf37a0"
+          ],
+          "failures": [
+            "a8dd86a4-08e8-445b-955c-406bf2e316da",
+            "b32ea233-3a9c-4cdb-ba50-5ded7e95f017",
+            "c4577071-92a7-4e50-a9a7-2d340dc322f6",
+            "2b0b4dc4-1d3a-4e46-8464-665e4b4e5541",
+            "ac8950cd-5a35-4b0f-b409-973d86ed0b7a"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 30160,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "abae412d-c59a-44bd-bffd-e064138e0dc7",
+          "title": "Task 3",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Test Name: Validate item size after selecting the first black shoe, DOM Id: .current, Browser: chrome, Device: desktop, Viewport: 1200*700",
+              "fullTitle": "Task 3 Test Name: Validate item size after selecting the first black shoe, DOM Id: .current, Browser: chrome, Device: desktop, Viewport: 1200*700",
+              "timedOut": null,
+              "duration": 5504,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "objhelper.set_viewports(el.height, el.width);\ncy.filter_black_products(el.height);\nobjhomepage.click_first_product();\nobjproductdetailspage.validate_item_size(_testdata[\"default\"].shoesize);",
+              "err": {
+                "message": "AssertionError: Timed out retrying: expected '<span.current>' to have text 'Small (S)', but the text was 'Not Small'",
+                "estack": "AssertionError: Timed out retrying: expected '<span.current>' to have text 'Small (S)', but the text was 'Not Small'\n    at productdetails.validate_item_size (https://demo.applitools.com/__cypress/tests?p=cypress\\integration\\TraditionalTestsV2.js:185:25)\n    at Context.eval (https://demo.applitools.com/__cypress/tests?p=cypress\\integration\\TraditionalTestsV2.js:356:29)",
+                "diff": "- 'Not Small'\n+ 'Small (S)'\n"
+              },
+              "uuid": "b6710401-94fb-412f-b0a2-735f0ff5cee8",
+              "parentUUID": "abae412d-c59a-44bd-bffd-e064138e0dc7",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test Name: Validate item discounted price after selecting the first black shoe, DOM Id: .new_price, Browser: chrome, Device: desktop, Viewport: 1200*700",
+              "fullTitle": "Task 3 Test Name: Validate item discounted price after selecting the first black shoe, DOM Id: .new_price, Browser: chrome, Device: desktop, Viewport: 1200*700",
+              "timedOut": null,
+              "duration": 6666,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "objhelper.set_viewports(el.height, el.width);\ncy.filter_black_products(el.height);\nobjhomepage.click_first_product();\nobjproductdetailspage.validate_discounted_price(_testdata[\"default\"].shoediscountedprice);",
+              "err": {
+                "message": "AssertionError: Timed out retrying: expected '<span#new_price.new_price>' to have text '$33.00', but the text was '$33'",
+                "estack": "AssertionError: Timed out retrying: expected '<span#new_price.new_price>' to have text '$33.00', but the text was '$33'\n    at productdetails.validate_discounted_price (https://demo.applitools.com/__cypress/tests?p=cypress\\integration\\TraditionalTestsV2.js:195:37)\n    at Context.eval (https://demo.applitools.com/__cypress/tests?p=cypress\\integration\\TraditionalTestsV2.js:362:29)",
+                "diff": "- '$33'\n+ '$33.00'\n"
+              },
+              "uuid": "d41086e1-a735-472b-b6c7-b85d040c13b4",
+              "parentUUID": "abae412d-c59a-44bd-bffd-e064138e0dc7",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test Name: Validate item size after selecting the first black shoe, DOM Id: .current, Browser: chrome, Device: tablet, Viewport: 768*700",
+              "fullTitle": "Task 3 Test Name: Validate item size after selecting the first black shoe, DOM Id: .current, Browser: chrome, Device: tablet, Viewport: 768*700",
+              "timedOut": null,
+              "duration": 6321,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "objhelper.set_viewports(el.height, el.width);\ncy.filter_black_products(el.height);\nobjhomepage.click_first_product();\nobjproductdetailspage.validate_item_size(_testdata[\"default\"].shoesize);",
+              "err": {
+                "message": "AssertionError: Timed out retrying: expected '<span.current>' to have text 'Small (S)', but the text was 'Not Small'",
+                "estack": "AssertionError: Timed out retrying: expected '<span.current>' to have text 'Small (S)', but the text was 'Not Small'\n    at productdetails.validate_item_size (https://demo.applitools.com/__cypress/tests?p=cypress\\integration\\TraditionalTestsV2.js:185:25)\n    at Context.eval (https://demo.applitools.com/__cypress/tests?p=cypress\\integration\\TraditionalTestsV2.js:356:29)",
+                "diff": "- 'Not Small'\n+ 'Small (S)'\n"
+              },
+              "uuid": "737ba5ca-05a7-4efb-8fa6-f058eea82e94",
+              "parentUUID": "abae412d-c59a-44bd-bffd-e064138e0dc7",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test Name: Validate item discounted price after selecting the first black shoe, DOM Id: .new_price, Browser: chrome, Device: tablet, Viewport: 768*700",
+              "fullTitle": "Task 3 Test Name: Validate item discounted price after selecting the first black shoe, DOM Id: .new_price, Browser: chrome, Device: tablet, Viewport: 768*700",
+              "timedOut": null,
+              "duration": 6839,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "objhelper.set_viewports(el.height, el.width);\ncy.filter_black_products(el.height);\nobjhomepage.click_first_product();\nobjproductdetailspage.validate_discounted_price(_testdata[\"default\"].shoediscountedprice);",
+              "err": {
+                "message": "AssertionError: Timed out retrying: expected '<span#new_price.new_price>' to have text '$33.00', but the text was '$33'",
+                "estack": "AssertionError: Timed out retrying: expected '<span#new_price.new_price>' to have text '$33.00', but the text was '$33'\n    at productdetails.validate_discounted_price (https://demo.applitools.com/__cypress/tests?p=cypress\\integration\\TraditionalTestsV2.js:195:37)\n    at Context.eval (https://demo.applitools.com/__cypress/tests?p=cypress\\integration\\TraditionalTestsV2.js:362:29)",
+                "diff": "- '$33'\n+ '$33.00'\n"
+              },
+              "uuid": "bd60d4b6-5aa0-43c3-b5bf-902eb223b440",
+              "parentUUID": "abae412d-c59a-44bd-bffd-e064138e0dc7",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test Name: Validate item size after selecting the first black shoe, DOM Id: .current, Browser: chrome, Device: mobile, Viewport: 500*700",
+              "fullTitle": "Task 3 Test Name: Validate item size after selecting the first black shoe, DOM Id: .current, Browser: chrome, Device: mobile, Viewport: 500*700",
+              "timedOut": null,
+              "duration": 11389,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "objhelper.set_viewports(el.height, el.width);\ncy.filter_black_products(el.height);\nobjhomepage.click_first_product();\nobjproductdetailspage.validate_item_size(_testdata[\"default\"].shoesize);",
+              "err": {
+                "message": "AssertionError: Timed out retrying: expected '<span.current>' to have text 'Small (S)', but the text was 'Not Small'",
+                "estack": "AssertionError: Timed out retrying: expected '<span.current>' to have text 'Small (S)', but the text was 'Not Small'\n    at productdetails.validate_item_size (https://demo.applitools.com/__cypress/tests?p=cypress\\integration\\TraditionalTestsV2.js:185:25)\n    at Context.eval (https://demo.applitools.com/__cypress/tests?p=cypress\\integration\\TraditionalTestsV2.js:356:29)",
+                "diff": "- 'Not Small'\n+ 'Small (S)'\n"
+              },
+              "uuid": "ea9164f6-f3d1-422d-aef2-c01a5ab7faef",
+              "parentUUID": "abae412d-c59a-44bd-bffd-e064138e0dc7",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test Name: Validate item discounted price after selecting the first black shoe, DOM Id: .new_price, Browser: chrome, Device: mobile, Viewport: 500*700",
+              "fullTitle": "Task 3 Test Name: Validate item discounted price after selecting the first black shoe, DOM Id: .new_price, Browser: chrome, Device: mobile, Viewport: 500*700",
+              "timedOut": null,
+              "duration": 6534,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "objhelper.set_viewports(el.height, el.width);\ncy.filter_black_products(el.height);\nobjhomepage.click_first_product();\nobjproductdetailspage.validate_discounted_price(_testdata[\"default\"].shoediscountedprice);",
+              "err": {
+                "message": "AssertionError: Timed out retrying: expected '<span#new_price.new_price>' to have text '$33.00', but the text was '$33'",
+                "estack": "AssertionError: Timed out retrying: expected '<span#new_price.new_price>' to have text '$33.00', but the text was '$33'\n    at productdetails.validate_discounted_price (https://demo.applitools.com/__cypress/tests?p=cypress\\integration\\TraditionalTestsV2.js:195:37)\n    at Context.eval (https://demo.applitools.com/__cypress/tests?p=cypress\\integration\\TraditionalTestsV2.js:362:29)",
+                "diff": "- '$33'\n+ '$33.00'\n"
+              },
+              "uuid": "2e927860-34a1-4bfc-82be-f699f1c23293",
+              "parentUUID": "abae412d-c59a-44bd-bffd-e064138e0dc7",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "b6710401-94fb-412f-b0a2-735f0ff5cee8",
+            "d41086e1-a735-472b-b6c7-b85d040c13b4",
+            "737ba5ca-05a7-4efb-8fa6-f058eea82e94",
+            "bd60d4b6-5aa0-43c3-b5bf-902eb223b440",
+            "ea9164f6-f3d1-422d-aef2-c01a5ab7faef",
+            "2e927860-34a1-4bfc-82be-f699f1c23293"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 43253,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "Traditional-V2-TestResults",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.0"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/test_reports",
+        "reportFilename": "Traditional-V2-TestResults"
+      },
+      "version": "5.1.0"
+    }
+  }
+}
